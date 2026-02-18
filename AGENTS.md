@@ -18,6 +18,7 @@ Workflow
 - Path: `playbooks/cases/<domain>/<short-name>-<yyyy>.md`.
 - Include: Title, Summary (type/preconditions/impact), Signal, Exploit Steps, Key Code/Storage, Refs (tx/attacker/contract/analysis/PoC).
 - No Fix/Detect section.
+- Add “Related pattern: <pattern>.md” to point to reusable patterns; also add the case to the pattern’s Examples section if applicable.
 
 4) Add pattern (if reusable)
 - Path: `playbooks/patterns/<pattern-name>.md`.
