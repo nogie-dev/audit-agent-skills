@@ -25,3 +25,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/Nalakuvara_LotteryTicket50_exp.sol
 - Alert: https://x.com/TenArmorAlert/status/1920816516653617318
+- Related pattern: reward-replay-missing-claim-tracking.md

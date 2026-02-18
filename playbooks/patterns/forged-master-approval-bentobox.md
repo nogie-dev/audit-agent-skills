@@ -19,3 +19,6 @@ Key Code/Storage
 
 Refs
 - RICE masterContractApproval bypass (2025-05-24): forged approval with zeroed sigs, then `withdraw` drained victim RICE, swapped to WETH.
+
+Examples
+- playbooks/cases/dex/rice-access-control-2025.md

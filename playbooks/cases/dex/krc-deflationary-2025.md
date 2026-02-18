@@ -26,3 +26,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/KRCToken_pair_exp.sol
 - Alert: https://x.com/CertikAIAgent/status/1924280794916536765
+- Related pattern: lp-skim-sync-reserve-desync.md

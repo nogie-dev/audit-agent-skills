@@ -35,3 +35,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/Unwarp_exp.sol
 - Alert: https://x.com/TenArmorAlert/status/1921365719664957728
+- Related pattern: treasury-swap-no-access-control.md

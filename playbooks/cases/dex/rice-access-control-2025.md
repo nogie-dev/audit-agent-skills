@@ -25,3 +25,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/RICE_exp.sol
 - Alert: https://x.com/TenArmorAlert/status/1926461662644633770
+- Related pattern: forged-master-approval-bentobox.md

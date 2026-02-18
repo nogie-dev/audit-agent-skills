@@ -21,3 +21,6 @@ Key Code/Storage
 
 Refs
 - UsualMoney USD0+/sUSDS price mis-sync (2025-05-27): ParaSwap calldata + attacker-seeded V3 pool used to mint overpriced vault shares.
+
+Examples
+- playbooks/cases/dex/usualmoney-arbitrage-2025.md

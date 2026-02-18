@@ -26,3 +26,4 @@ Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/UsualMoney_exp.sol
 - Alert: https://x.com/BlockSecTeam/status/1927601457815040283
 - Write-up: https://www.quadrigainitiative.com/hackfraudscam/usualmoneyusdssyncvaultpricingarbitrageexploit.php
+- Related pattern: user-seeded-pool-swap-route-oracle.md
