@@ -23,6 +23,17 @@ Audit playbooks, protocol notes, and tooling to assist an LLM agent during smart
 - Keep excerpts tight: `Summary`, `Signal`, `Exploit Steps`, plus any key `Key Code/Storage` snippets.
 - Include PoC/queries from `tooling/` only when necessary to test a hypothesis.
 
+## Case sources (2025)
+| Case | Primary refs |
+| --- | --- |
+| UsualMoney USD0+/sUSDS price mis-sync (2025-05-27) | [PoC](https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/UsualMoney_exp.sol), [BlockSec alert](https://x.com/BlockSecTeam/status/1927601457815040283) |
+| KRC LP reserve desync (2025-05-18) | [PoC](https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/KRCToken_pair_exp.sol), [Certik alert](https://x.com/CertikAIAgent/status/1924280794916536765) |
+| MBU deposit mint mispricing (2025-05-11) | [PoC](https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/MBUToken_exp.sol), [TenArmor alert](https://x.com/TenArmorAlert/status/1921474575965065701) |
+| Nalakuvara LotteryTicket50 burn flaw (2025-05-09) | [PoC](https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/Nalakuvara_LotteryTicket50_exp.sol), [TenArmor alert](https://x.com/TenArmorAlert/status/1920816516653617318) |
+| RICE masterContractApproval bypass (2025-05-24) | [PoC](https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/RICE_exp.sol), [TenArmor alert](https://x.com/TenArmorAlert/status/1926461662644633770) |
+| Unwarp WETH unwrap w/o auth (2025-05-14) | [PoC](https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/Unwarp_exp.sol), [Alert](https://x.com/TenArmorAlert/status/1921365719664957728) |
+| YDT backdoor transfer drains LP (2025-05-26) | [PoC](https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/YDTtoken_exp.sol), [TenArmor alert](https://x.com/TenArmorAlert/status/1926587721885040686) |
+
 ## Case sources
 | Case | Source |
 | --- | --- |
@@ -53,3 +64,4 @@ Audit playbooks, protocol notes, and tooling to assist an LLM agent during smart
 | BTNFT reward claim replay (2025-04-18) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-04/BTNFT_exp.sol |
 | Unverified 0x6077 access control (2025-04-11) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-04/Unverified_6077_exp.sol |
 | SizeCredit leverageUp arbitrary call (2025-08-15) | https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/src/test/2025-08/SizeCredit_exp.sol |
+| Corkprotocol access control abuse (2025-05-28) | https://x.com/SlowMist_Team/status/1928100756156194955 |
