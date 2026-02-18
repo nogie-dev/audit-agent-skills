@@ -19,10 +19,5 @@ Key Code/Storage
 - Oracle getter function; collateral factor math; per-asset collateral configs.
 - Admin or governance-controlled oracle addresses without delay.
 
-Fix/Detect
-- Use robust oracle (Chainlink/TWAP with liquidity floor); cap per-block price change.
-- Require dual-source confirmation; apply collateral factor caps for low-liquidity assets.
-- Monitoring: price delta vs reference, borrow spikes during thin liquidity windows.
-
 Refs
 - https://rekt.news/mango-rekt/

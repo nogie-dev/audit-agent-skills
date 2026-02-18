@@ -16,9 +16,5 @@ Exploit Steps
 Key Code/Storage
 - Pricing functions (e.g., `getPurchasePrice`, bonding curves) using raw mul/div; config params (e.g., THETA) compounding multipliers.
 
-Fix/Detect
-- Use checked math (Solidity ≥0.8), cap input size, and revert on zero/implausible prices.
-- Monitoring: alert on price=0 for nonzero amount, sudden large mints followed by sell.
-
 Refs
 - Example: Truebit 2026 price overflow (playbooks/cases/token/truebit-integer-overflow-2026.md)

@@ -19,9 +19,5 @@ Key Code/Storage
 - `getReserves` usage without TWAP; lack of sanity check vs external oracle.
 - Slippage configs ignored or too lax in downstream call.
 
-Fix/Detect
-- Use TWAP with liquidity floor; cap per-tx price impact; require external oracle confirmation.
-- Monitoring: burst of large swaps around protocol calls; pool depth below threshold.
-
 Refs
 - https://blog.openzeppelin.com/price-oracle-manipulation

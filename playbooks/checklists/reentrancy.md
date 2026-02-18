@@ -21,11 +21,6 @@ Key Code/Storage
 - Shared balances mapping, debt accounting, reward indices, cumulative sums.
 - Non-atomic math on shares/price-per-share during callbacks.
 
-Fix/Detect
-- Apply non-reentrant guards; follow checks-effects-interactions; split withdrawals.
-- Use pull payments; limit callbacks (transfer vs call), block reentry on sibling funcs.
-- Monitoring: abnormal multiple emits per tx; balance/share diffs > threshold.
-
 Refs
 - https://rekt.news/daorekt/
 - https://consensys.io/diligence/blog/2019/09/stop-using-soliditys-transfer-now/

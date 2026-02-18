@@ -22,11 +22,6 @@ Key Code/Storage
 - Positions store `deposits[]` with `depositTime`, `tier`, `rewardBps`, but no claimed amount or last claim timestamp.
 - Vulnerable staking: 0x5d16b8Ba2a9a4ECA6126635a6FFbF05b52727d50; token SOR: 0xE021bAa5b70C62A9ab2468490D3f8ce0AfDd88dF.
 
-Fix/Detect
-- Track claimed/redeemed rewards per deposit or per position (e.g., `rewardDebt`, `lastClaimedAt`, claimed flags) and update on every claim/withdraw.
-- Make reward functions idempotent; cap claimable to accrued minus claimed; consider non-reentrant claim flow.
-- Monitoring: repeated reward claims from same wallet without new deposits; high-frequency withdraw/claim after vesting.
-
 Refs
 - Alert: https://x.com/TenArmorAlert/status/1875582709512188394
 - Attack tx: https://app.blocksec.com/explorer/tx/eth/0x6439d63cc57fb68a32ea8ffd8f02496e8abad67292be94904c0b47a4d14ce90d

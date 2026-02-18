@@ -18,10 +18,5 @@ Key Code/Storage
 - Reserve/balance-based LP detection, e.g., `_isRemoveLP(pair)` that infers removal from `balanceOf(pair) < reserve` with token-order assumptions.
 - Timelock state `transferTime[addr]` only set in buy branch.
 
-Fix/Detect
-- Set timelock on all pair-origin transfers by default; remove heuristic LP detection or harden with explicit LP mint/burn events.
-- Avoid burning pair balances in token logic; keep AMM invariants untouched.
-- Monitoring: buys with no timelock updates, immediate sells after buys, flash swaps around buys.
-
 Refs
 - Example: IPC timelock bypass 2025-01 (playbooks/cases/token/ipc-timelock-bypass-2025.md)

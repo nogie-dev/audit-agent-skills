@@ -22,11 +22,6 @@ Key Code/Storage
 - Formula (conceptual): `(200 * amount * reserve * totalSupply + 100 * amount^2 * reserve) / (100 * totalSupply^2 - THETA * totalSupply^2)`; large `amount` makes the numerator overflow to a small value, yielding 0 price.
 - Key params: `THETA` = 75 (from `_setParameters`); `_reserve` (ETH in pool) ≈ 8,539 ETH at exploit time; `totalSupply` ≈ 161,753,242,367,424,992,669,183,203.
 
-Fix/Detect
-- Use Solidity ≥0.8.0 or SafeMath for critical pricing; bound `amount` inputs and reject zero/underflowed prices.
-- Add sanity checks: revert if price == 0 or if multiplication overflows (checked math), and cap max purchasable size per tx.
-- Monitoring: alert on price = 0 for nonzero amount, sudden massive mints, repeated buy/sell cycles within one tx.
-
 Refs
 - CertiK: https://www.certik.com/zh-CN/resources/blog/truebit-incident-analysis
 - Attack tx: https://etherscan.io/tx/0xcd4755645595094a8ab984d0db7e3b4aabde72a5c87c4f176a030629c47fb014

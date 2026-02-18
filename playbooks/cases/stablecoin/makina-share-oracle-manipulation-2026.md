@@ -22,11 +22,6 @@ Key Code/Storage
 - Share oracle: 0xFFCBc7A7eEF2796C277095C66067aC749f4cA078 — `getSharePrice()` reads updated AUM directly (no delay/TWAP/bounds).
 - Consumer: Curve DUSD/USDC pool 0x32E616F4f17d43f9A5cd9Be0e294727187064cb3 pricing off the share oracle.
 
-Fix/Detect
-- Gate or rate-limit AUM updates; separate pending vs settled AUM with commit/apply delay.
-- Add TWAP/heartbeat and bounds on share price deltas; apply circuit breakers for large intra-block jumps.
-- Monitoring: alert on permissionless AUM updates followed by large swaps/withdraws; detect share price jumps within one block.
-
 Refs
 - Attack tx: https://skylens.certik.com/tx/eth/0x569733b8016ef9418f0b6bde8c14224d9e759e79301499908ecbcd956a0651f5
 - Attacker: 0x935bfb495e33f74d2e9735df1da66ace442ede48

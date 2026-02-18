@@ -31,3 +31,5 @@ Audit playbooks, protocol notes, and tooling to assist an LLM agent during smart
 | LAURA auto-liquidity K exploit (2025-01-01) | https://twitter.com/rotcivegaf |
 | SOR staking reward replay (2025-01-04) | https://x.com/TenArmorAlert/status/1875582709512188394 |
 | IPC timelock bypass (2025-01) | https://x.com/TenArmorAlert/status/1876669657866015230 |
+| FortuneWheel swapProfitFees ACL missing (2025-01-10) | https://www.cnblogs.com/ACaiGarden/p/18664999 |
+| UniLend stale balance health factor (2025-01-12) | https://slowmist.medium.com/analysis-of-the-unilend-hack-90022fa35a54 |

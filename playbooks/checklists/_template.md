@@ -14,8 +14,5 @@ Exploit Steps
 Key Code/Storage
 - Contract/functions/slots/params that matter; short snippet if helpful.
 
-Fix/Detect
-- Patch ideas and monitoring heuristics/alerts.
-
 Refs
 - Links to incidents, PRs, writeups.

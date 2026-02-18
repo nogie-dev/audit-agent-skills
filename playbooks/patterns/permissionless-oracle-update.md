@@ -18,9 +18,5 @@ Key Code/Storage
 - Anchor update function (e.g., `updateTotalAum`, `poke`, `updatePrice`) writing shared price/AUM.
 - Consumers (DEX/Curve pools, LP withdraws) reading anchor in same tx.
 
-Fix/Detect
-- Gate or rate-limit updates; add commit/apply delay and TWAP/heartbeat; bound price deltas and add circuit breakers.
-- Monitoring: alert on permissionless oracle/AUM updates followed by large swaps/withdraws in same tx.
-
 Refs
 - Example: Makina share oracle manipulation 2026 (playbooks/cases/stablecoin/makina-share-oracle-manipulation-2026.md)

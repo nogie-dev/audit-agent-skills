@@ -16,9 +16,5 @@ Exploit Steps
 Key Code/Storage
 - Fallbacks/plug-ins; storage slots for owner/admin/implementations; call data routing.
 
-Fix/Detect
-- Enforce allowlists and selector filters; consider staticcall pattern; separate storage for plugins.
-- Monitoring: delegatecall to unknown addresses; storage diffs on admin/owner slots.
-
 Refs
 - https://blog.openzeppelin.com/proxy-patterns

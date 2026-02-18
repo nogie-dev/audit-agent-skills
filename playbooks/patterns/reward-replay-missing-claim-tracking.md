@@ -17,9 +17,5 @@ Exploit Steps
 Key Code/Storage
 - Reward calc functions reading deposits/amounts and time elapsed, but not persisting `claimed`, `rewardDebt`, or `lastClaimedAt`.
 
-Fix/Detect
-- Track claimed rewards and subtract from pending; add `rewardDebt` or per-deposit claimed flags; update on every claim/withdraw.
-- Monitoring: bursts of repeated claims from one address without new deposits; payout per call equals full accrued amount.
-
 Refs
 - Example: SOR staking reward replay 2025-01-04 (playbooks/cases/staking/sor-reward-replay-2025.md)

@@ -21,11 +21,6 @@ Key Code/Storage
 - Upgradeable contracts rebuilding domain separator incorrectly.
 - Deadline logic without enforcement or unchecked after execution.
 
-Fix/Detect
-- Enforce per-user nonces; bind domain to chainId/contract; invalidate on upgrade if needed.
-- Ensure deadline and nonce consumed; emit events for monitoring.
-- Monitoring: multiple identical signatures used; sudden approvals without tx history.
-
 Refs
 - https://eips.ethereum.org/EIPS/eip-2612
 - https://mirror.xyz/samczsun.eth/uw2ZCenZDP7FpC18JNpD-sB4hRu9mY4FRbMa80N1V6c

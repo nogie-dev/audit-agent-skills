@@ -23,11 +23,6 @@ Key Code/Storage
 - Sell path requires `block.timestamp >= transferTime[sender] + TRANSFER_LOCK`; if buy path skipped, lock is unset and sell passes.
 - Pair: 0xDe3595a72f35d587e96d5C7B6f3E6C02ed2900AB (IPC/USDT on BSC). Token: 0xEAb0d46682Ac707A06aEFB0aC72a91a3Fd6Fe5d1.
 
-Fix/Detect
-- Correct LP add/remove detection; avoid reserve/balance heuristic; track per-address buy timestamps unconditionally on pair-origin transfers.
-- Do not burn pair balances; avoid custom AMM mutations.
-- Monitoring: buys without timelock entries, immediate sells after buys, flash swaps around buys, pair balance burns.
-
 Refs
 - Alert: https://x.com/TenArmorAlert/status/1876669657866015230
 - Attack tx (front-run): https://app.blocksec.com/explorer/tx/bsc/0x5ef1edb9749af6cec511741225e6d47103e0b647d1e41e08649caaff66942a91

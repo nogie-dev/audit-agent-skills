@@ -22,11 +22,6 @@ Key Code/Storage
 - Function `removeLiquidityWhenKIncreases` subtracts tokens from pair balance when `currentK > 1.05 * INITIAL_UNISWAP_K`, then `pair.sync()`.
 - Pair: 0xb292678438245Ec863F9FEa64AFfcEA887144240 (LAURA/WETH).
 
-Fix/Detect
-- Remove or gate auto-liquidity hooks; require owner/gov-only and rate-limit, or delete manual pair balance edits.
-- Avoid manual reserve edits; rely on AMM invariant; add circuit breaker on k-based actions.
-- Monitoring: alert on external calls to `removeLiquidityWhenKIncreases`, sudden reserve drops on token side, large flashloan-driven add/remove liquidity cycles.
-
 Refs
 - Attack tx: https://etherscan.io/tx/0xef34f4fdf03e403e3c94e96539354fb4fe0b79a5ec927eacc63bc04108dbf420
 - Attacker: https://etherscan.io/address/0x25869347f7993c50410a9b9b9c48f37d79e12a36

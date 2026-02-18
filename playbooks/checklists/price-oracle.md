@@ -21,11 +21,6 @@ Key Code/Storage
 - Pools/feeds addresses; ability to override via admin or upgrade.
 - Loan-to-value math using spot price without bounds.
 
-Fix/Detect
-- Use robust feeds (Chainlink) with staleness/bounds; TWAP with liquidity threshold.
-- Cap price deviations per block/tx; use circuit breakers; validate liquidity depth.
-- Monitoring: price delta vs reference; borrow spikes during low liquidity blocks.
-
 Refs
 - https://rekt.news/mango-rekt/
 - https://samczsun.com/taking-undercollateralized-borrows-for-fun-and-for-profit/

@@ -17,9 +17,5 @@ Exploit Steps
 Key Code/Storage
 - Token-side hook altering pair balances, e.g., `_balances[uniswapV2Pair] -= ...; pair.sync();` when `currentK > threshold`.
 
-Fix/Detect
-- Remove/gate such hooks; require governance-only and rate limiting; avoid manual pair balance edits.
-- Monitoring: calls to the hook, sudden one-sided reserve drops, flashloan-driven add/remove liquidity cycles.
-
 Refs
 - Example: LAURA auto-liquidity exploit 2025-01-01 (playbooks/cases/token/laura-k-removal-2025.md)
