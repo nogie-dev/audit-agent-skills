@@ -19,3 +19,4 @@ Key Code/Storage
 
 Refs
 - Example: AST token faulty transfer skim exploit 2025-01-21 (playbooks/cases/token/ast-transfer-bug-2025.md)
+- Example: FPC burn-on-transfer mispricing 2025-07-05 (playbooks/cases/dex/fpc-deflation-burn-2025.md)
