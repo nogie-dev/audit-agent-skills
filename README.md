@@ -45,4 +45,11 @@ Audit playbooks, protocol notes, and tooling to assist an LLM agent during smart
 | wKeyDAO unprotected buy (2025-03-16) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/wKeyDAO_exp.sol |
 | LeverageSIR slot collision & callback abuse (2025-03-30) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/LeverageSIR_exp.sol |
 | Alkimiya SilicaPools unsafe cast (2025-03-28) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/Alkimiya_io_exp.sol |
+| YBToken no slippage protection (2025-04-16) | https://x.com/CertiKAlert/status/1912684902664782087 |
+| Laundromat unauthenticated withdraw (2025-04-08) | https://x.com/TenArmorAlert/status/1909814943290884596 |
+| AIRWA burnRate unprotected (2025-04-04) | https://x.com/TenArmorAlert/status/1908086092772900909 |
+| Lifeprotocol buy/sell loop drain (2025-04-26) | https://bscscan.com/tx/0x487fb71e3d2574e747c67a45971ec3966d275d0069d4f9da6d43901401f8f3c0 |
+| ImpermaxV3 flashloan oracle manipulation (2025-04-26) | https://medium.com/@quillaudits/how-impermax-v3-lost-300k-in-a-flashloan-attack-35b02d0cf152 |
+| BTNFT reward claim replay (2025-04-18) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-04/BTNFT_exp.sol |
+| Unverified 0x6077 access control (2025-04-11) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-04/Unverified_6077_exp.sol |
 | SizeCredit leverageUp arbitrary call (2025-08-15) | https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/src/test/2025-08/SizeCredit_exp.sol |
