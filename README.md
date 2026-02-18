@@ -33,3 +33,8 @@ Audit playbooks, protocol notes, and tooling to assist an LLM agent during smart
 | IPC timelock bypass (2025-01) | https://x.com/TenArmorAlert/status/1876669657866015230 |
 | FortuneWheel swapProfitFees ACL missing (2025-01-10) | https://www.cnblogs.com/ACaiGarden/p/18664999 |
 | UniLend stale balance health factor (2025-01-12) | https://slowmist.medium.com/analysis-of-the-unilend-hack-90022fa35a54 |
+| yETH virtual balance math manipulation (2025-12-01) | https://github.com/banteg/yeth-exploit/blob/main/report.pdf |
+| Mosca join overcredit drain (2025-01-13) | https://x.com/TenArmorAlert/status/1878699517450883407 |
+| Idols NFT self-transfer reward farming (2025-01-14) | https://x.com/TenArmorAlert/status/1879376744161132981 |
+| AST token faulty transfer skim exploit (2025-01-21) | https://medium.com/@joichiro.sai/ast-token-hack-how-a-faulty-transfer-logic-led-to-a-65k-exploit-da75aed59a43 |
+| Four.meme pool hijack price skew (2025-02-11) | https://www.chaincatcher.com/en/article/2167296 |
