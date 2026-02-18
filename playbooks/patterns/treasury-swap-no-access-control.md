@@ -19,3 +19,5 @@ Key Code/Storage
 
 Refs
 - Example: FortuneWheel swapProfitFees ACL missing (playbooks/cases/token/fortune-swapprofitfees-acl-2025.md)
+- Example: Unwarp WETH unwrap without auth (playbooks/cases/dex/unwarp-access-2025.md)
+- Example: MetaPool unrestricted mint with zero assets (playbooks/cases/dex/metapool-mint-no-asset-2025.md)
