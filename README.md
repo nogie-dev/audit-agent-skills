@@ -27,4 +27,7 @@ Audit playbooks, protocol notes, and tooling to assist an LLM agent during smart
 | Case | Source |
 | --- | --- |
 | Truebit price overflow (2026-01) | https://www.certik.com/zh-CN/resources/blog/truebit-incident-analysis |
-| Makina share oracle manipulation (2026-05) | https://x.com/nn0b0dyyy |
+| Makina share oracle manipulation (2026-01-20) | https://x.com/nn0b0dyyy |
+| LAURA auto-liquidity K exploit (2025-01-01) | https://twitter.com/rotcivegaf |
+| SOR staking reward replay (2025-01-04) | https://x.com/TenArmorAlert/status/1875582709512188394 |
+| IPC timelock bypass (2025-01) | https://x.com/TenArmorAlert/status/1876669657866015230 |
