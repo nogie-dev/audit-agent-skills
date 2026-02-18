@@ -22,6 +22,7 @@ Workflow
 4) Add pattern (if reusable)
 - Path: `playbooks/patterns/<pattern-name>.md`.
 - Capture generalized behavior (Summary/Signal/Exploit Steps/Key Code/Storage/Refs to case).
+- Only create a new pattern when behavior is not covered by existing ones (e.g., multi-module init without auth, deflationary token LP drift, unauthenticated withdraw signature replay). Otherwise map to an existing pattern.
 
 5) Update README
 - Append to Case sources table: `| <case title> (YYYY-MM-DD) | <primary analysis/alert link> |`.
