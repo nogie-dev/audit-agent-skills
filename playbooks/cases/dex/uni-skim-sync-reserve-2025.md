@@ -26,3 +26,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/UNI_exp.sol
 - Alert: https://x.com/CertiKAlert/status/1897973904653607330
+- Related pattern: lp-skim-sync-reserve-desync.md

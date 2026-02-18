@@ -25,3 +25,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-05/MBUToken_exp.sol
 - Alerts: https://x.com/TenArmorAlert/status/1921474575965065701 , https://x.com/CertiKAlert/status/1921483904483000457
+- Related pattern: unchecked-pricing-overflow.md

@@ -26,3 +26,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-04/YBToken_exp.sol
 - Alert: https://x.com/CertiKAlert/status/1912684902664782087
+- Related pattern: slippage-none-target-invariant.md

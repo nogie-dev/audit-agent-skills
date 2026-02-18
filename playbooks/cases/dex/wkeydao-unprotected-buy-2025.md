@@ -25,3 +25,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/wKeyDAO_exp.sol
 - Alert: https://x.com/Phalcon_xyz/status/1900809936906711549
+- Related pattern: unprotected-sale-contract-buy.md

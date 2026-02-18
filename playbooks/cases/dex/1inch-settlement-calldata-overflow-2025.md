@@ -26,3 +26,4 @@ Refs
 - Post-mortem: https://blog.decurity.io/yul-calldata-corruption-1inch-postmortem-a7ea7a53bfd9
 - Analysis: https://x.com/DecurityHQ/status/1898069385199153610
 - Dedaub decompile: https://app.dedaub.com/ethereum/address/0x019bfc71d43c3492926d4a9a6c781f36706970c9/decompiled
+- Related pattern: calldata-offset-overflow.md

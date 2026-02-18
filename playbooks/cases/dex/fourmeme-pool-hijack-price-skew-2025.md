@@ -26,3 +26,4 @@ Refs
 - Coverage: https://www.chaincatcher.com/en/article/2167296
 - Attacker addresses: see case notes (multiple EOAs and contracts involved)
 - Attack tx: https://bscscan.com/tx/0x2902f93a0e0e32893b6d5c907ee7bb5dabc459093efa6dbc6e6ba49f85c27f61
+- Related pattern: pool-hijack-preinit-price.md

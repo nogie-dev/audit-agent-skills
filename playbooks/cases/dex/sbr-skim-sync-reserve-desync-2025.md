@@ -25,3 +25,4 @@ Refs
 - Alert: https://x.com/TenArmorAlert/status/1897826817429442652
 - Thread: https://x.com/0xfirmanregar/status/2019768070810812520
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/SBRToken_exp.sol
+- Related pattern: lp-skim-sync-reserve-desync.md

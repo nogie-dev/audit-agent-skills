@@ -25,3 +25,4 @@ Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/BBXToken_exp.sol
 - Post-mortem: https://blog.solidityscan.com/bbx-token-hack-analysis-f2e962c00ee5
 - Alert: https://x.com/TenArmorAlert/status/1916312483792408688
+- Related pattern: burn-gap-zero-transfer-bypass.md
