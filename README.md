@@ -38,3 +38,11 @@ Audit playbooks, protocol notes, and tooling to assist an LLM agent during smart
 | Idols NFT self-transfer reward farming (2025-01-14) | https://x.com/TenArmorAlert/status/1879376744161132981 |
 | AST token faulty transfer skim exploit (2025-01-21) | https://medium.com/@joichiro.sai/ast-token-hack-how-a-faulty-transfer-logic-led-to-a-65k-exploit-da75aed59a43 |
 | Four.meme pool hijack price skew (2025-02-11) | https://www.chaincatcher.com/en/article/2167296 |
+| 1inch Settlement calldata offset overflow (2025-03-05) | https://blog.decurity.io/yul-calldata-corruption-1inch-postmortem-a7ea7a53bfd9 |
+| SBR skim/sync reserve desync (2025-03-07) | https://x.com/0xfirmanregar/status/2019768070810812520 |
+| UNI skim/sync reserve manipulation (2025-03-07) | https://x.com/CertiKAlert/status/1897973904653607330 |
+| BBX burn-gap bypass (2025-03-20) | https://blog.solidityscan.com/bbx-token-hack-analysis-f2e962c00ee5 |
+| wKeyDAO unprotected buy (2025-03-16) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/wKeyDAO_exp.sol |
+| LeverageSIR slot collision & callback abuse (2025-03-30) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/LeverageSIR_exp.sol |
+| Alkimiya SilicaPools unsafe cast (2025-03-28) | https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-03/Alkimiya_io_exp.sol |
+| SizeCredit leverageUp arbitrary call (2025-08-15) | https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/src/test/2025-08/SizeCredit_exp.sol |
