@@ -23,4 +23,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-07/MulticallWithETH_exp.sol
 - Alert: https://bscscan.com/tx/0x6da7be6edf3176c7c4b15064937ee7148031f92a4b72043ae80a2b3403ab6302
-- Related pattern: treasury-swap-no-access-control.md
+- Related pattern: public-multicall-arbitrary-target.md

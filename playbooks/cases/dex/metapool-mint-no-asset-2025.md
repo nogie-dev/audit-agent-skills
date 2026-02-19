@@ -26,4 +26,4 @@ Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-06/MetaPool_exp.sol
 - Analysis: https://www.coindesk.com/business/2025/06/17/liquid-staking-protocol-meta-pool-suffers-usd27m-exploit , https://medium.com/@SolidityScan/meta-pool-hack-analysis
 - Alert: https://x.com/peckshield/status/1934895187102454206
-- Related pattern: treasury-swap-no-access-control.md
+- Related pattern: public-erc4626-mint-no-asset.md

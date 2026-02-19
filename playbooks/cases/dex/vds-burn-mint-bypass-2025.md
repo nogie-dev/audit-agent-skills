@@ -25,4 +25,4 @@ Key Code/Storage
 Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-07/VDS_exp.sol
 - Alert: https://x.com/SlowMist_Team/status/1945672192471302645
-- Related pattern: treasury-swap-no-access-control.md
+- Related pattern: self-transfer-redeem-underlying.md

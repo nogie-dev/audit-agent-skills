@@ -27,4 +27,4 @@ Refs
 - PoC: https://github.com/SunWeb3Sec/DeFiHackLabs/blob/main/src/test/2025-07/gmx_exp.sol
 - Announcement: https://x.com/GMX_IO/status/1927697775071801600
 - Alert: https://x.com/GMX_IO/status/1927697775071801600
-- Related pattern: unvalidated-swap-callback.md
+- Related pattern: cross-contract-reentrancy-price-skew.md
